@@ -17,9 +17,6 @@ export default function SearchForm({ onSearch, isLoading }: SearchFormProps) {
     }
   };
 
-  // TODO: Workshop Exercise 3 - Add geolocation support
-  // Add a "Use my location" button that gets the user's current coordinates
-
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-6">
       <div className="flex flex-col sm:flex-row gap-4">
